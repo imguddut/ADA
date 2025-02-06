@@ -49,7 +49,7 @@ int main()
         double avg_time = total_time / 10.0 / 1000.0; // Convert to milliseconds
 
         // Print - showing n on x-axis and avg_time on y-axis 
-        cout << "Size of array: " << n << " | Avg Time (s): " << avg_time << endl; 
+        cout << "Size of array: " << n << " | Avg Time (ms): " << avg_time << endl; 
         
         n += 1000; 
     } 
